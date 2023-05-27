@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Sigmar;
+    src: url(../fonts/Sigmar/Sigmar-Regular.ttf)
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald/Oswald-Bold.ttf);
+}
+* {
+  margin: 1;
+  padding: 2;
+  box-sizing: border-box;
+}
+.texto{
+       left: 100px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       position: relative;
+       bottom: 50px;
+       display: inline-block;
+       font-size: 70px;
+       color: rgb(20, 12, 131);
+      }
+.guitarra {
+    position: relative;
+    bottom: 0px;
+    display: inline-block;
+  }
+body{
+    background-color: #333;
+    background-image: url(https://media.lmneuquen.com/p/b063879990a40d59c349ffaca4e38986/adjuntos/195/imagenes/002/933/0002933118/1200x675/smart/fiesta-confluencia-abel-pintos-90jpg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 20rem;
+  }
+  form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  form input[type=text], form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  form input[type=text]:focus, form textarea:focus {
+    outline: none;
+    border-color: #333;
+    box-shadow: 0 0 10px #333;
+  }
+  form input[type=submit] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  form input[type=submit]:hover {
+    background-color: #666;
+    transform: translateY(-3px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+p{
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+    color: red;
+    }
+h1{
+  color: #db0909;
+  size: 200px;
+  position: relative;
+  left: 150px;}
+
+  #navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ #navegador li{
+  display: inline;
+  text-align: center; 
+  margin: 0 10px 0 0;
+}
+#navegador li a {
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+#navegador li a:hover{
+  background-color: #333333;
+  color: #ffffff;
+}
+#navegador{
+  background-color: blue;
+}
