@@ -1,0 +1,21 @@
+body{
+    background-color: whitesmoke;
+    background-image: url(../imagenes/fondo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+.flex-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.flex-container div{
+    border: 1px solid black;
+    }
