@@ -66,3 +66,14 @@ h1{
 .container-img .box-img:nth-child(5){
     grid-row-start: span 2;
 }
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+label{
+    color: black;
+}
+
