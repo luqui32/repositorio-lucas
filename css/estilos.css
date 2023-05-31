@@ -77,4 +77,9 @@ label{
     color: black;
 }
 
+p{
+    color: black;
+    text-size-adjust: 500px;
+    display: flex;
+}
 
