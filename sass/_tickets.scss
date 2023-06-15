@@ -1,0 +1,15 @@
+@mixin fontStyle($color) {
+    color: black;
+    background-color: $color;
+    text-transform: uppercase;
+}
+
+.titulo-tickets{
+    font-size: 100px;
+    @include fontStyle(red)
+}
+
+.t{
+    font-size: 50px;
+    @include fontStyle(blue)
+}
