@@ -6,6 +6,7 @@
 
 .titulo-tickets{
     font-size: 100px;
+    justify-content: left;
     @include fontStyle(red)
 }
 

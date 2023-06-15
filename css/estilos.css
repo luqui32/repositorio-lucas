@@ -125,6 +125,7 @@ p {
 
 .titulo-tickets {
   font-size: 100px;
+  justify-content: left;
   color: black;
   background-color: red;
   text-transform: uppercase;
