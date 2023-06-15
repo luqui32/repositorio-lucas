@@ -109,6 +109,13 @@ p {
   transform: scale(-1);
 }
 
+.bandas {
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: black;
+}
+
 .ventas {
   font-size: 60px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
