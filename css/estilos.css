@@ -128,18 +128,20 @@ p {
   font-size: 40px;
   color: red;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
 }
 
 .titulo-tickets {
   font-size: 100px;
   justify-content: left;
-  color: black;
-  background-color: red;
-  text-transform: uppercase;
+  background-image: radial-gradient(red, orange);
+  text-align: center;
 }
 
 .t {
   font-size: 50px;
+  margin: 50px;
+  padding: 10px;
   color: black;
   background-color: blue;
   text-transform: uppercase;

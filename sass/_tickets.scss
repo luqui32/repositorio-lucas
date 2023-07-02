@@ -7,10 +7,13 @@
 .titulo-tickets{
     font-size: 100px;
     justify-content: left;
-    @include fontStyle(red)
-}
+    background-image: radial-gradient(red, orange);
+    text-align: center;
+    }
 
 .t{
     font-size: 50px;
+    margin: 50px;
+    padding: 10px;
     @include fontStyle(blue)
 }
